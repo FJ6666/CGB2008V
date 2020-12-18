@@ -1,0 +1,10 @@
+#yml yaml Yet another markup language
+
+#应用名，作为一个服务ID注册到注册中心
+spring:
+  application:
+    name: item-service
+
+#服务端口分别用8001(商品)、8101()、8201()
+server:
+  port: 8001

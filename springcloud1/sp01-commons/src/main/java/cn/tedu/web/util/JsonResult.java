@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class JsonResult {
+public class JsonResult<T> {
     /** 成功 */
     public static final int SUCCESS = 200;
 
